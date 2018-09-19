@@ -1,0 +1,201 @@
+/* === GLOBAL === */
+
+.px-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
+}
+
+
+
+/*=============== TYPOGRAPHY ===============*/
+
+body{
+    font-family:'Lato', serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+h1{
+    font-family:'Oswald', serif;
+    font-weight: 400;
+    font-size: 90px;
+    }
+
+h1.dark{
+    color: black;
+}
+
+h2{
+    font-family:'Lato';
+    color: #5c153c;
+
+    }
+
+h4.card-title{
+    font-family:'Oswald';
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #5c153c;
+    }
+
+h5.card-title{
+    font-family:'Oswald', serif;
+    font-weight: 10;
+    font-size: 13px;
+    }
+
+p{
+    color: dimgrey;
+    
+}
+
+p.card-text{
+    text-align: center;
+    color: dimgrey;
+}
+
+p.btn-text{
+    font: 'Oswald';
+}
+
+.page-link:focus{
+    color: yellow;
+}
+
+/*=============== NAVBAR ===============*/
+.navbar{
+    border: 0;
+}
+
+.navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+  color: lightgrey;
+}
+    
+navbar-toggle {
+    z-index:3;
+}
+
+
+}
+.centered-nav{
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*=============== HEADER ===============*/
+.card-main{
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+    padding-top: 80px;
+}
+
+/*=============== CARD STYLES ===============*/
+
+.btn-primary {
+    color: #pink;
+    background-color: #454649;
+    border-color:#31343a;
+    font: 'Lato';
+}
+
+.card-bodymain{
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+    margin: 50px;
+}
+
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+}
+
+  .card-deck .card {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    
+}
+
+
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Top left text */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+/* Top right text */
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
